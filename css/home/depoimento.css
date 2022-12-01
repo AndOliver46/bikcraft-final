@@ -31,8 +31,8 @@
   font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
-  left: -50px;
-  top: -20px
+  left: -3.125rem;
+  top: -1.25rem;
 }
 
 .depoimento p::after{
@@ -46,6 +46,15 @@
   .depoimento{
     grid-template-columns: 1fr;
     text-align: center;
+  }
+  .depoimento p::before{
+    left: -0.125rem;
+    top: -0.25rem;
+    font-size: 2rem;
+  }
+  
+  .depoimento p::after{
+    font-size: 2rem;
   }
   .depoimento-conteudo{
     padding: 40px 20px;
