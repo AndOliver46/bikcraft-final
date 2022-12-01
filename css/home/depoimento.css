@@ -1,23 +1,23 @@
-.depoimento{
+.depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-p1);
   overflow: hidden;
 }
 
-.depoimento img{
+.depoimento img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 0px;
 }
 
-.depoimento-conteudo{
+.depoimento-conteudo {
   padding: 40px 40px 80px 80px;
   align-self: end;
 }
 
-.depoimento-conteudo p{
+.depoimento-conteudo p {
   max-width: 32ch;
   font-family: "Merriweather", serif;
   font-style: italic;
@@ -26,8 +26,8 @@
   position: relative;
 }
 
-.depoimento p::before{
-  content: '“';
+.depoimento p::before {
+  content: "“";
   font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
@@ -35,32 +35,31 @@
   top: -1.25rem;
 }
 
-.depoimento p::after{
-  content: '”';
+.depoimento p::after {
+  content: "”";
   font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
 }
 
-@media (max-width:800px){
-  .depoimento{
+@media (max-width: 800px) {
+  .depoimento {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .depoimento p::before{
-    left: -0.125rem;
-    top: -0.25rem;
+  .depoimento p::before {
     font-size: 2rem;
+    position: static;
   }
-  
-  .depoimento p::after{
+  .depoimento p::after {
     font-size: 2rem;
+    position: static;
   }
-  .depoimento-conteudo{
+  .depoimento-conteudo {
     padding: 40px 20px;
     justify-self: center;
   }
-  .depoimento img{
+  .depoimento img {
     max-height: 200px;
   }
 }
