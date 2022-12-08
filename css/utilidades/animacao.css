@@ -1,19 +1,20 @@
-[data-anime] {
-  opacity: 0;
-}
-.fadeInDown {
+.js .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
-.fadeInUp {
+.js .fadeInUp {
   transform: translate3d(0, 20px, 0);
 }
-.fadeInRight {
+.js .fadeInRight {
   transform: translate3d(20px, 0, 0);
 }
-.fadeInLeft {
+.js .fadeInLeft {
   transform: translate3d(-20px, 0, 0);
 }
-.anime {
+
+.js [data-anime] {
+  opacity: 0;
+}
+.js .anime {
   opacity: 1;
   transform: none;
   transition: transform 800ms, opacity 800ms;

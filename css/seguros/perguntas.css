@@ -15,7 +15,7 @@
   background-color: var(--cor-1);
 }
 
-.perguntas button{
+.perguntas button {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -49,26 +49,26 @@
   transition: transform 0.3s;
 }
 
-.perguntas dd{
+.js .perguntas dd {
   display: none;
 }
 
-.perguntas dd.ativa{
+.js .perguntas dd.ativa {
   display: block;
 }
 
-.perguntas dd{
+.perguntas dd {
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
 }
 
-@media (max-width: 800px){
-  .perguntas{
+@media (max-width: 800px) {
+  .perguntas {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .perguntas h2{
+  .perguntas h2 {
     margin-bottom: 40px;
   }
 }
